@@ -1,0 +1,36 @@
+= ReadMe test
+Author
+v0.1
+:compat-mode!:
+:kroki-server-url: https://kroki.io
+:sectnums:
+// Table of Contents
+:toc:
+
+== Introduction
+
+[plantuml, format="svg"]
+----
+@startuml
+
+class ClassA #lightgreen {
+    +addNote(text: string): void
+}
+
+class ClassB #yellow {
+    +theEnd()
+}
+
+ClassA ..> ClassB: uses
+ClassB ..> ClassB: destroy
+
+legend left
+  green - new classes
+  yellow - modified classes
+endlegend
+
+@enduml
+----
+
+== Test area finish
+

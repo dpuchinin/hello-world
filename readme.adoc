@@ -34,3 +34,4 @@ endlegend
 
 == Test area finish
 
+The text [.underline]#underline me# is underlined.

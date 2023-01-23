@@ -34,4 +34,68 @@ endlegend
 
 == Test area finish
 
-The text [.underline]#underline me# is underlined.
+The text [.underline]##underline me## is underlined.
+
+The text [.underline]*underline me* is underlined.
+
+
+[listing]
+....
+listing
+a > b
+....
+
+[example]
+....
+example
+a > b
+....
+
+
+[unknown]
+....
+unknown
+a > b
+....
+
+
+[code]
+....
+code
+a > b
+....
+
+
+[quote]
+====
+quote
+a > b
+====
+
+
+This sidebar is short, #so a styled paragraph# will do.
+
+
+[sidebar]
+This sidebar is short, #so a styled paragraph# will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+This sidebar is short, so a styled paragraph will do.
+
+
+[NOTE]
+====
+Remember the milk.
+====
+
+
+[NOTE]
+Remember the milk.
+
+
+
